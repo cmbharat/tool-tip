@@ -3,24 +3,15 @@ import Tooltip from "./Tooltip";
 import withToolTip from "./WithTooltip";
 
 const Button = (props) => {
+  console.log("props---[>", props);
   return (
     <>
       <div className="main-div">
         <div className="child-div">
-          {props.hovering === true ? <Tooltip position="top" /> : null}
-          <div>Tooltip at top</div>
-        </div>
-        <div className="child-div">
-          {props.hovering === true ? <Tooltip position="bottom" /> : null}
-          <div>Tooltip at bottom</div>
-        </div>
-        <div className="child-div">
-          {props.hovering === true ? <Tooltip position="right" /> : null}
-          <div>Tooltip at right</div>
-        </div>
-        <div className="child-div">
-          {props.hovering === true ? <Tooltip position="left" /> : null}
-          <div>Tooltip at left</div>
+          {props.hovering === true ? (
+            <Tooltip position={props.position} />
+          ) : null}
+          <div>Tooltip at {props.position}</div>
         </div>
       </div>
     </>

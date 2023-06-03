@@ -18,7 +18,10 @@ export default function withToolTip(Component) {
     render() {
       return (
         <div onMouseOver={this.mouseOver} onMouseOut={this.mouseOut}>
-          <Component hovering={this.state.hovering} />
+          <Component
+            hovering={this.state.hovering}
+            position={this.props.position}
+          />
         </div>
       );
     }

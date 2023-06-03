@@ -1,16 +1,17 @@
-.main-div {
-  text-align: center;
-  margin-top: 20%;
+.App{
   display: flex;
   justify-content: space-evenly;
+  margin-top: 15%;
+  text-align: center;
 }
+
 
 .main-div>div {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 150px;
-  width: 150px;
+  height: 125px;
+  width: 125px;
 }
 .child-div{
   background-color: aqua;
