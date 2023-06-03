@@ -16,14 +16,6 @@
   background-color: aqua;
   border: 1px solid black
 }
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .tooltip {
   position: relative;
   display: inline-block;
