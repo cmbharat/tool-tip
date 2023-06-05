@@ -3,7 +3,6 @@ import Tooltip from "./Tooltip";
 import withToolTip from "./WithTooltip";
 
 const Button = (props) => {
-  console.log("props---[>", props);
   return (
     <>
       <div className="main-div">
