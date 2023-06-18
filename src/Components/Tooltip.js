@@ -34,7 +34,7 @@ export const Tooltip = (props) => {
     <div className="tooltip">
       Hover over me!
       <span ref={spanRef} className="tooltiptext">
-        Thanks for hovering! I'm a tooltip
+        Thanks for hovering! I'm a tooltip in {position} position
       </span>
     </div>
   );

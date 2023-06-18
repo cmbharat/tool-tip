@@ -5,18 +5,18 @@
   text-align: center;
 }
 
-
+/* 
 .main-div>div {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 125px;
   width: 125px;
-}
-.child-div{
+} */
+/* .child-div{
   background-color: aqua;
   border: 1px solid black
-}
+} */
 .tooltip {
   position: relative;
   display: inline-block;
